@@ -89,6 +89,23 @@
 
     - This is a brute-force generation approach
     - It builds all valid strings recursively
+    
+    ------------------------------------------------------
+
+    Time Complexity (TC):
+
+    - In worst case, each index branches into 2 calls
+    - So total calls ≈ O(2^N)
+
+    👉 Exponential growth → inefficient for large n
+
+    ------------------------------------------------------
+
+    Space Complexity (SC):
+
+    - Recursion depth = N
+
+    👉 SC = O(N) (call stack)
 */
 class Solution {
   public:
