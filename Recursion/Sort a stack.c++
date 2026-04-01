@@ -105,7 +105,7 @@ class Solution {
         }
         
         
-        if(topElement >= st.top())
+        if(topElement >= st.top()) //Descending order condition (For ascending use <topElement <= st.top()>)
         {
             st.push(topElement);
             return ;
