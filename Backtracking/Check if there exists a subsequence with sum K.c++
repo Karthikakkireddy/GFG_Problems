@@ -184,7 +184,7 @@ class Solution {
 class Solution {
   public:
     bool checkSubsequenceSumHelper(vector<int>& arr, int k, int sum, int index)
-    {
+    { 
         if(sum == k)
             return true;
         if(index == arr.size() || sum > k)
