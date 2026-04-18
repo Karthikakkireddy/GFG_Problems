@@ -15,7 +15,7 @@ Each solution includes:
 - Time & Space Complexity
 
 ## Progress
-Total Solved: 25
+Total Solved: 26
 Basic : 2
 Easy: 10
-Medium: 13
+Medium: 14
