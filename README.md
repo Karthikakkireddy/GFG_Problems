@@ -18,4 +18,4 @@ Each solution includes:
 Total Solved: 28
 Basic : 2
 Easy: 10
-Medium: 16
+Medium: 16 
