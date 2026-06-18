@@ -62,3 +62,27 @@ class Solution {
         return v;
     }
 };
+
+
+
+// Same approach different way
+
+
+class Solution {
+  public:
+    vector<int> leaders(vector<int>& arr) {
+        // code here
+        int maxElementTillNow = INT_MIN; 
+        int n = arr.size();
+        vector<int> v;
+        for(int i= n-1 ; i>= 0 ; i--)
+        {
+            maxElementTillNow = max(maxElementTillNow, arr[i]);
+            if(maxElementTillNow == arr[i])
+                v.emplace_back(maxElementTillNow);
+        }
+        
+        reverse(v.begin(), v.end());
+        return v;
+    }
+};
